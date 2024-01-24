@@ -1,8 +1,8 @@
 
-#Licznik Kolorów Pikseli
+# Licznik Kolorów Pikseli
 Ten skrypt w języku Python analizuje plik obrazu i liczy liczbę pikseli o różnych kolorach na podstawie zestawu zasad. Zasady określają, czy piksel jest sklasyfikowany jako czerwony, zielony, niebieski lub szary. Następnie skrypt zapisuje statystyki do pliku tekstowego.
 
-#Jak to działa
+# Jak działa
 Skrypt używa biblioteki Python Imaging Library (PIL) do otwarcia i przetworzenia obrazu. Zasady liczenia są następujące:
 
 Jeśli wszystkie trzy wartości RGB są równe, piksel jest uważany za szary.
@@ -11,7 +11,7 @@ Jeśli czerwony ma najwyższą wartość (lub jest równy niebieskiemu), piksel 
 Jeśli niebieski ma najwyższą wartość, piksel jest niebieski.
 W przypadku remisu między dwoma kolorami, zielony ma pierwszeństwo przed czerwonym i niebieskim, a czerwony ma pierwszeństwo przed niebieskim.
 
-#Użycie
+# Użycie
 Uruchom skrypt, wykonując funkcję main().
 Podaj ścieżkę do pliku obrazu, gdy zostaniesz o to poproszony.
 Podaj nazwę pliku wynikowego do zapisania statystyk (musi kończyć się '.txt').
